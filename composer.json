@@ -1,0 +1,32 @@
+{
+    "name": "shubinmi/helpers",
+    "description": "Base daily helpers for fast reusing.",
+    "keywords": [
+        "helpers",
+        "base",
+        "common"
+    ],
+    "homepage": "https://github.com/shubinmi/helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Shubin",
+            "email": "shubinmi@gmail.com",
+            "homepage": "https://github.com/shubinmi",
+            "role": "Founder and cyclist"
+        }
+    ],
+    "support": {
+        "wiki": "https://github.com/shubinmi/helpers",
+        "source": "https://github.com/shubinmi/helpers"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseHelpers\\": "src/"
+        }
+    }
+}
